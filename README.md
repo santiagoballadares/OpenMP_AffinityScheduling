@@ -3,13 +3,13 @@ Simple implementation of the affinity scheduling algorithm, a loop scheduling al
 
 Compile with: 
 
-      >gcc -fopenmp omp_affinity_scheduling.c -o omp_affinity_scheduling
+      > gcc -fopenmp omp_affinity_scheduling.c -o omp_affinity_scheduling
 
 Run with:
 
       
-      >set OMP_NUM_THREADS=8            # explicitly set 8 threads by the OMP_NUM_THREADS environment variable
-      >omp_affinity_scheduling.exe
+      > set OMP_NUM_THREADS=8            # explicitly set 8 threads by the OMP_NUM_THREADS environment variable
+      > omp_affinity_scheduling.exe
       
 
 Setup for windows:
